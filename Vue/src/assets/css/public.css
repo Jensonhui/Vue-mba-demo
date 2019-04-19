@@ -1,0 +1,76 @@
+@charset "utf-8";
+*{touch-action:pan-y}
+*,ol,ul{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+body,html,.page_cont{width:100%;height:100%;font-family:"微软雅黑";color:#333;position:relative;overflow:hidden;background-color:#fff;-webkit-overflow-scrolling:touch}
+ol li,ul li{list-style:none;margin:0;padding:0}
+.fl{float:left}
+.fr{float:right}
+a{color:#fff}
+a,a:hover{text-decoration:none}
+.overflow{overflow:hidden!important}
+.close{display: none!important;}
+.open{display: block!important;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+img{width:100%;height:auto;border:none;display:block;-ms-interpolation-mode:bicubic}
+.page_cont .page{position:fixed;top:0;left:0;z-index:0;width:100%;height:100%;overflow:hidden;background-size:cover;background-position:center;background-repeat:no-repeat}
+.page_cont .opacitys{opacity:0;transition:all 1s linear}
+
+.load_page .load_man,
+.load_page .load_time,
+.second_page .cont_top .showimg,
+.second_page .cont_top .choose_btn,
+.third_page .third_btns .btn,
+.second_page .second_cont .show_img,
+.second_page .show_img_list .show_img_item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* 等待时间 */
+@keyframes loadingTime{
+    0%{transform:rotate(0)}
+    to{transform:rotate(1turn)}
+}
+@-webkit-keyframes loadingTime{
+    0%{transform:rotate(0)}
+    to{transform:rotate(1turn)}
+}
+@keyframes bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0.0) }
+    40% { -webkit-transform: scale(1.0) }
+}
+@-webkit-keyframes bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0.0) }
+    40% { -webkit-transform: scale(1.0) }
+}
+/* 淡出淡出 */
+@keyframes glitter{
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; display: none; }
+}
+@-webkit-keyframes glitter{
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; display: none; }
+}
+/* 旋转 */
+.rotate {
+    -webkit-animation: rotating 1.2s linear infinite;
+    -moz-animation: rotating 1.2s linear infinite;
+    -o-animation: rotating 1.2s linear infinite;
+    animation: rotating 1.2s linear infinite
+}
+@-webkit-keyframes rotating {
+    from { -webkit-transform: rotate(0) }
+    to { -webkit-transform: rotate(360deg) }
+}
+@keyframes rotating {
+    from { transform: rotate(0) }
+    to { transform: rotate(360deg) }
+}
+@-moz-keyframes rotating {
+    from { -moz-transform: rotate(0) }
+    to { -moz-transform: rotate(360deg) }
+}

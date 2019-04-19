@@ -1,0 +1,53 @@
+{
+  "jpg": [
+      {
+        "id": 1,
+        "path": "../../static/img/_png/01.jpg",
+        "path2": "../../static/img/_gif/01.jpg"
+      },{
+        "id": 2,
+        "path": "../../static/img/_png/02.jpg",
+        "path2": "../../static/img/_gif/02.jpg"
+      },{
+        "id": 3,
+        "path": "../../static/img/_png/03.jpg",
+        "path2": "../../static/img/_gif/03.jpg"
+      },{
+        "id": 4,
+        "path": "../srcassets/img/_png/04.jpg",
+        "path2": "../../static/img/_gif/04.jpg"
+      },{
+        "id": 5,
+        "path": "../../static/img/_png/05.jpg",
+        "path2": "../../static/img/_gif/05.jpg"
+      },{
+        "id": 6,
+        "path": "../../static/img/_png/06.jpg",
+        "path2": "../../static/img/_gif/06.jpg"
+      },{
+        "id": 7,
+        "path": "../../static/img/_png/07.jpg",
+        "path2": "../../static/img/_gif/07.jpg"
+      },{
+        "id": 8,
+        "path": "../../static/img/_png/08.jpg",
+        "path2": "../../static/img/_gif/08.jpg"
+      },{
+        "id": 9,
+        "path": "../../static/img/_png/09.jpg",
+        "path2": "../../static/img/_gif/09.jpg"
+      },{
+        "id": 10,
+        "path": "../../static/img/_png/10.jpg",
+        "path2": "../../static/img/_gif/10.jpg"
+      },{
+        "id": 11,
+        "path": "../../static/img/_png/11.jpg",
+        "path2": "../../static/img/_gif/11.jpg"
+      },{
+        "id": 12,
+        "path": "../../static/img/_png/12.jpg",
+        "path2": "../../static/img/_gif/12.jpg"
+      }
+  ]
+}
